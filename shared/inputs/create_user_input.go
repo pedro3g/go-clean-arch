@@ -1,7 +1,6 @@
-package entities
+package inputs
 
-type User struct {
-	Entity
+type CreateUserInput struct {
 	Name     string
 	Email    string
 	Password string
